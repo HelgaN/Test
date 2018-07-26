@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Тест</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="page-header page-header--expand">
+
+      <div class="page-header__logo-wrapper">
+        <a href="#" class="page-header__logo">
+          Test
+        </a>
+      </div>
+
+      <nav class="main-navigation">
+        <button class="main-navigation__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+
+        <ul class="main-navigation__list main-navigation__list--one">
+          <li class="main-navigation__item">
+            <a class="main-navigation__link main-navigation__link--curent">Menu</a>
+
+            <ul class="main-navigation__submenu main-navigation__submenu--one">
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+            </ul>
+
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">Menu</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">Menu</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">Menu</a>
+          </li>
+        </ul>
+
+
+
+        <ul class="main-navigation__list main-navigation__list--two">
+          <li class="main-navigation__item">
+            <a class="main-navigation__link main-navigation__link--curent">Menu</a>
+
+            <ul class="main-navigation__submenu main-navigation__submenu--two">
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+              <li class="main-navigation__submenu-item">
+                <a href="#" class="main-navigation__submenu-link">Menu</a>
+              </li>
+            </ul>
+
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">Menu</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">Menu</a>
+          </li>
+          <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#">Menu</a>
+          </li>
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden"></h1>
+    <section class="hello">
+      <h2 class="hello__title">Hello</h2>
+      <p class="hello__paragraph">This is <span>test</span></p>
+
+    </section>
+    <section class="demo">
+      <div>
+      <h2 class="demo__title">Demo title</h2>
+      <p class="demo__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    </div>
+
+    </section>
+    <section class="contacts">
+      <div class="contacts__wrapper">
+      <div class="container__contacts">
+        <h2 class="contacts__title">Connect with us</h2>
+        <p class="contacts__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <form class="contacts__form" action="#" method="post">
+          <p>
+            <label class="visually-hidden" for="user-name">Your name</label>
+            <input class="form__input" id="user-name" type="text" name="name" placeholder="Name" required>
+            <span class="contacts__form-true"></span>
+          </p>
+          <p>
+            <label class="visually-hidden" for="feedback-user-email">Your e-mail:</label>
+            <input class="form__input" id="feedback-user-email" type="email" name="feedback-email" placeholder="Email" required>
+            <span class="contacts__form-true"></span>
+          </p>
+          <p>
+            <label class="visually-hidden" for="feedback-user-phone">Your e-mail:</label>
+            <input class="form__input" id="feedback-user-phone" type="number" name="feedback-phone" placeholder="Phone" required>
+            <span class="contacts__form-true"></span>
+          </p>
+          <p class="feedback-text">
+            <label class="visually-hidden" for="feedback-user-message">Your message</label>
+            <textarea class="form__textarea" id="feedback-user-message" name="text-area" rows="6" placeholder="Message" required></textarea>
+            <span class="contacts__form-true"></span>
+          </p>
+          <button class="form__button" type="submit">Send message</button>
+        </form>
+      </div>
+    </div>
+    </section>
+  </main>
+  </div>
+
+  <script src="js/menu.js">
+  </script>
+
+  <script src="js/form.js">
+  </script>
+
+
+</body>
+
+</html>
